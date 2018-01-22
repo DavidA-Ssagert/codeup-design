@@ -24,5 +24,10 @@ nav li {
     text-align: center;
 }
 .grey-bg {
-    background-color: #E6E6E6;
+    background-color: #F0F0F0;
 }
+
+h1, h2{
+    text-align: center;
+}
+
