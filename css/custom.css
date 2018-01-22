@@ -1,0 +1,28 @@
+.brand-bg {
+    border-color: #E6E6E6;
+    border-top: 3em;
+    border-bottom: 3em;
+    border-style: solid;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 7em;
+}
+.brand-title {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Abel', sans-serif;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    float: left;
+    margin-right: 0.7em;
+    margin-left: 0.7em;
+    text-align: center;
+}
+.grey-bg {
+    background-color: #E6E6E6;
+}
