@@ -1,17 +1,9 @@
-.brand-bg {
-    border-color: #E6E6E6;
-    border-top: 3em;
-    border-bottom: 3em;
-    border-style: solid;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    height: 7em;
-}
 .brand-title {
     text-align: center;
     font-size: 2em;
     font-family: 'Abel', sans-serif;
+    background-color: #F0F0F0;
+    font-size: 3.5em;
 }
 nav ul {
     list-style: none;
@@ -19,15 +11,30 @@ nav ul {
 }
 nav li {
     float: left;
-    margin-right: 0.7em;
-    margin-left: 0.7em;
+    /*margin-right: 0.7em;*/
+    /*margin-left: 0.7em;*/
     text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 130%;
+    /*width: 13.8%;*/
 }
-.grey-bg {
-    background-color: #F0F0F0;
-}
-
 h1, h2{
     text-align: center;
+    background-color: #F0F0F0;
+    font-family: 'Anton', sans-serif;
 }
-
+h1 {
+    font-size: 3.5em;
+}
+.header-bg {
+    background-image: url("../img/header-bg.jpg");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+}
+body {
+    background-color: #F0F0F0;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
