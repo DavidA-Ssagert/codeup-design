@@ -1,3 +1,6 @@
+.img-small {
+    margin-top: 1.8em;
+}
 .brand-title {
     text-align: center;
     font-size: 2em;
@@ -113,17 +116,6 @@ a:link {
 .container {
     z-index: 1;
 }
-@media screen and (max-width: 767px) {
-    body {
-        background-image: url("../img/header-bg-2.jpg");
-        background-repeat: repeat-x;
-        background-size: auto 5em;
-    }
-
-}
-.img-sm {
-    margin-top: 1.8em;
-}
 h4 {
     margin: 0;
     padding: 0;
@@ -138,4 +130,32 @@ i.fa.fa-twitter::before {
 }
 .tweet {
     padding-top: 1.5em;
+}
+@media screen and (max-width: 767px) {
+    body {
+        background-image: url("../img/header-bg-2.jpg");
+        background-repeat: repeat-x;
+        background-size: auto 12em;
+    }
+
+}
+@media screen and (max-width: 650px) {
+    body {
+        background-image: url("../img/header-bg-2.jpg");
+        background-repeat: repeat-x;
+        background-size: auto 9em;
+    }
+@media screen and (max-width: 550px) {
+    body {
+        background-image: url("../img/header-bg-2.jpg");
+        background-repeat: repeat-x;
+        background-size: auto 7em;
+    }
+@media screen and (max-width: 450px) {
+    body {
+        background-image: url("../img/header-bg-2.jpg");
+        background-repeat: repeat-x;
+        background-size: auto 5em;
+    }
+
 }
